@@ -298,7 +298,8 @@ img {
 /* Services */
 
 .services-title,
-.team-title {
+.team-title,
+.client-title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -397,6 +398,40 @@ background-color: var(--accent-txt-cl);
     fill: #FFFFFF;
 }
 
+/* Clients */
+
+.client-title {
+    margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-icon {
+    fill: var(--social-icon-cl-team);
+}
+
+.client-link:hover {
+    border-color: var(--accent-txt-cl);
+}
+
+.client-link:hover .client-icon {
+    fill: var(--accent-txt-cl);
+}
 
 
 /* Footer */
