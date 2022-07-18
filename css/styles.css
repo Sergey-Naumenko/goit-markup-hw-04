@@ -115,10 +115,12 @@ img {
 
 }
 
-.contact-mail-link:hover .nav-icon {
+.contact-mail-link:hover,
+.contact-mail-link:focus .nav-icon {
     fill: var(--accent-txt-cl);
 }
-.contact-phone-link:hover .nav-icon {
+.contact-phone-link:hover,
+.contact-phone-link:focus .nav-icon {
     fill: var(--accent-txt-cl);
 }
 
@@ -398,6 +400,14 @@ background-color: var(--accent-txt-cl);
     fill: #FFFFFF;
 }
 
+.socials-link:focus {
+    background-color: var(--accent-txt-cl);
+}
+
+.socials-link:focus .social-icon {
+    fill: #FFFFFF;
+}
+
 /* Clients */
 
 .client-title {
@@ -430,6 +440,14 @@ background-color: var(--accent-txt-cl);
 }
 
 .client-link:hover .client-icon {
+    fill: var(--accent-txt-cl);
+}
+
+.client-link:focus {
+    border-color: var(--accent-txt-cl);
+}
+
+.client-link:focus   .client-icon {
     fill: var(--accent-txt-cl);
 }
 
@@ -475,6 +493,10 @@ background-color: var(--accent-txt-cl);
 }
 
 .socials-link-footer:hover {
+    background-color: var(--accent-txt-cl);
+}
+
+.socials-link-footer:focus {
     background-color: var(--accent-txt-cl);
 }
 
