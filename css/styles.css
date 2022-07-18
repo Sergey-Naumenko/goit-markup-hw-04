@@ -220,31 +220,16 @@ img {
 
 /* Advantage */
 
-.advantage-item::before {
-    display: block;
-    content: "";
+.advantage-container {
+    display: flex;
+    object-position: 50% 50%;
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--bg-cl-light);
-    background-repeat: no-repeat;
-    background-position: center;
-
-    
+    align-items: center;
+    justify-content: center;
 }
 
-.icon-antenna::before {
-    background-image: url(../images/icon/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/icon/clock.svg);
-}
-.icon-diagram::before {
-    background-image: url(../images/icon/diagram.svg);
-}
-.icon-astronaut::before {
-    background-image: url(../images/icon/astronaut.svg);
-}
 
 .advantage-title,
 .portfolio-title {
