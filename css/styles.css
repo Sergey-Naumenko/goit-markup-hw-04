@@ -9,6 +9,7 @@
     --logo-black-cl: #000000;
     --logo-withe-cl: #ffffff;
     --address-txt-cl: rgba(255, 255, 255, 0.6);
+    --social-icon-cl-team: #AFB1B8;
 
     /* bg colors */
     --bg-cl-dark: #2F303A;
@@ -351,13 +352,46 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
+    margin-bottom: 16px;
 
 }
 
 .team-wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+}
+
+.social-icon {
+    fill: var(--social-icon-cl-team);
+}
+
+.socials-link:hover {
+background-color: var(--accent-txt-cl);
+}
+
+.socials-link:hover .social-icon {
+    fill: #FFFFFF;
+}
+
+
 
 /* Footer */
 
