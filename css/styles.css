@@ -85,7 +85,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 
 }
 
@@ -101,7 +101,18 @@ img {
 .contact-list {
     display: flex;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 .logo-header {
     font-family: var(--secondary-font);
@@ -150,7 +161,11 @@ img {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: var(--secondary-txt-cl)
+    color: var(--secondary-txt-cl);
+
+
+    
+    
     
 }
 
