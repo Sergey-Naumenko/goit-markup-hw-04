@@ -115,14 +115,23 @@ img {
 
 }
 
-.contact-mail-link:hover,
+.contact-mail-link:hover .nav-icon {
+    fill: var(--accent-txt-cl);
+}
+
 .contact-mail-link:focus .nav-icon {
     fill: var(--accent-txt-cl);
 }
-.contact-phone-link:hover,
+
+.contact-phone-link:hover .nav-icon {
+    fill: var(--accent-txt-cl);
+}
+
 .contact-phone-link:focus .nav-icon {
     fill: var(--accent-txt-cl);
 }
+
+
 
 
 .logo-header {
