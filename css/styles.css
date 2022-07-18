@@ -110,9 +110,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
+    fill: var(--secondary-txt-cl);
+
 }
 
-
+.contact-mail-link:hover .nav-icon {
+    fill: var(--accent-txt-cl);
+}
+.contact-phone-link:hover .nav-icon {
+    fill: var(--accent-txt-cl);
+}
 
 
 .logo-header {
@@ -155,7 +163,9 @@ img {
 
 .contact-mail-link,
 .contact-phone-link {
-    display: block;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -164,10 +174,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
 
-
-    
-    
-    
 }
 
 .contact-mail-link:hover,
