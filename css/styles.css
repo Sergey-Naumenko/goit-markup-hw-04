@@ -442,6 +442,42 @@ background-color: var(--accent-txt-cl);
     padding-bottom: 60px;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.footer-title-social {
+    margin-bottom: 20px;
+}
+
+.socials-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon-footer {
+    fill: var(--logo-withe-cl);
+}
+
+.socials-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.socials-link-footer:hover {
+    background-color: var(--accent-txt-cl);
+}
+
 .logo-footer {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -462,6 +498,7 @@ background-color: var(--accent-txt-cl);
 
 .address-item {
     margin-bottom: 9px;
+    margin-right: 70px;
 }
 
 .address-link-map {
@@ -487,6 +524,16 @@ background-color: var(--accent-txt-cl);
 .address-link-mail:focus,
 .address-link-phone:focus {
     color: var(--accent-txt-cl);
+}
+
+
+.footer-title-social {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: cal(16 /14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-withe-cl);
 }
 
 /* Portfolio.html */
@@ -566,3 +613,5 @@ background-color: var(--accent-txt-cl);
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
 }
+
+
